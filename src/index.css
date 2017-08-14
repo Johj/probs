@@ -1,0 +1,36 @@
+body {
+  background-color: #444;
+  margin: 0 20% 0 20%;
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: 0 5% 0 5%;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.lg-size {
+  font-size: 6em;
+}
+
+.md-size {
+  font-size: 2em;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.white {
+  color: white;
+}
