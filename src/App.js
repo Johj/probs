@@ -59,7 +59,7 @@ export default class App extends Component {
   }
 
   flipCoin = () => {
-    return this.getRandomIntInclusive(0, 1) ? 'Ⓗ' : 'Ⓣ';
+    return this.getRandomIntInclusive(0, 1) ? '⚪' : '⚫';
   }
 
   rollDice = () => {
